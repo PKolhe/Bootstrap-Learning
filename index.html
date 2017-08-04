@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>thenewboston</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body style="margin-left:10px">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a href="#" class="navbar-brand">THENEWBOSTON</a>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                    <!-- drop down menu -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Profile <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Friends</a></li>
+                            <li><a href="#">Photos</a></li>
+                            <li><a href="#">Settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!--right align -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Logout</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <div class='container-fluid'>
+        <h1>3 Columns Layout</h1>
+        <div class="row">
+            <div class="col-md-4" style="background-color: #FF9999">Left</div>
+            <div class="col-md-4" style="background-color: #99ccFF">Middle</div>
+            <div class="col-md-4" style="background-color: #00CC99">Right</div>
+
+            <!-- highlighting -->
+            <p>You can highlight text with the
+                <mark>mark tags</mark>
+                if you want.
+            </p>
+
+            <!-- quotes -->
+            <blockquote>
+                <p>Sometimes I wet the bed. On purpose.</p>
+                <footer>My Grandpa</footer>
+            </blockquote>
+
+            <!-- lists -->
+            <h4>Things to do when you're bored</h4>
+            <dl>
+                <dt>Indoors</dt>
+                <dd>- take a nap</dd>
+                <dd>- watch Netflix for 8 hours</dd>
+                <dt>Outdoors</dt>
+                <dd>- go back inside</dd>
+            </dl>
+
+            <!-- code -->
+            <p>To set the users weight use <code>setUserWeight(374);</code> with an integer</p>
+
+            <!-- multi line code -->
+            <p>For multiple lines of code, use the pre element:</p>
+            <pre>
+                for n in range(101):
+                    if(n % 4 is 0):
+                        print(n)
+            </pre>
+
+            <!-- keyboard input -->
+            <p>This is supposed to define keyboard input <kbd>Ctrl+Alt+Del</kbd></p>
+
+            <!-- contextual colors -->
+            <h4>Provides build in text color classes for different events</h4>
+            <p class="text-muted">This text is muted.</p>
+            <p class="text-success">This text indicates success.</p>
+            <p class="text-danger">This text represents danger.</p>
+
+            <!-- background colors -->
+            <p class="bg-success">This text indicates success.</p>
+            <p class="bg-danger">This text represents danger.</p>
+
+        </div>
+        <h2>Simple Table</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bucky Roberts</td>
+                    <td>74</td>
+                    <td>8,760</td>
+                </tr>
+                <tr>
+                    <td>Turd McGurd</td>
+                    <td>13</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Chchchch Idunno</td>
+                    <td>18</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Condensed Table</h2>
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bucky Roberts</td>
+                    <td>74</td>
+                    <td>8,760</td>
+                </tr>
+                <tr>
+                    <td>Turd McGurd</td>
+                    <td>13</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Chchchch Idunno</td>
+                    <td>18</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Striped Table</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bucky Roberts</td>
+                    <td>74</td>
+                    <td>8,760</td>
+                </tr>
+                <tr>
+                    <td>Turd McGurd</td>
+                    <td>13</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Chchchch Idunno</td>
+                    <td>18</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- rounded corners -->
+        <img src="https://www.thenewboston.com/photos/users/2/resized/2463a86fdf42a1681c66ba8fd6789f9d.jpg" class="img-rounded" width="230"
+            height="230">
+
+        <!-- circle -->
+        <img src="https://www.thenewboston.com/photos/users/2/resized/2463a86fdf42a1681c66ba8fd6789f9d.jpg" class="img-circle" width="230"
+            height="230">
+
+        <!-- responsive vs non responsive -->
+        <img src="https://www.thenewboston.com/photos/users/2/resized/b108418bc888d29763bacbc36d830518.jpg" class="img-responsive">
+        <img src="https://www.thenewboston.com/photos/users/2/resized/b108418bc888d29763bacbc36d830518.jpg">
+
+        <!-- embed responsive videos -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-u-j7uqU7sI"></iframe>
+        </div>
+    </div>
+
+    <h2>Wells are sections with border and grey background</h2>
+
+    <div class="well">Basic Well</div>
+    <div class="well well-sm">Small Well</div>
+
+    <div class="alert alert-success">
+        Congratulations, you just won the game!
+    </div>
+
+    <!-- to make the alert closable -->
+    <div class="alert alert-info">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> Don't forget Kelly's birthday is today!
+    </div>
+
+    <!-- add the fade and in class to animate when closing -->
+    <div class="alert alert-danger fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> Are you sure you want to delete your
+        account?
+    </div>
+
+    <h3>Entire with on larger devices, 1/2 on small ones</h3>
+    <div class="row">
+        <div class="col-md-12 col-xs-6">
+            <p>Curabitur tellus diam, pharetra quis libero sit amet, finibus suscipit diam. Etiam felis dui, fermentum in est
+                congue, tempus efficitur enim. Donec vitae venenatis neque, vel commodo ipsum. Etiam quis tellus tortor.
+                Morbi porttitor tempor mauris in facilisis. Aliquam eget sapien consequat, finibus lectus nec, pulvinar justo.
+                Mauris in consectetur lacus, in luctus turpis. Aenean eget velit ipsum. Sed elit enim, ullamcorper ac orci
+                ac, fringilla interdum est. Praesent nec nisi ultrices lorem ullamcorper congue. Vivamus sed gravida metus,
+                ut auctor nisl. Aliquam sollicitudin fringilla justo id facilisis.</p>
+        </div>
+    </div>
+
+
+    <h3>Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop</h3>
+    <div class="row">
+        <div class="row">
+            <div class="col-xs-6 col-md-4" style="background-color: lightblue">1/3 desktop, 1/2 mobile</div>
+            <div class="col-xs-6 col-md-4" style="background-color: lightgreen">1/3 desktop, 1/2 mobile</div>
+            <div class="col-xs-6 col-md-4" style="background-color: lightcoral">1/3 desktop, 1/2 mobile</div>
+        </div>
+    </div>
+
+
+    <h3>Offsetting Columns</h3>
+    <div class="row">
+        <div class="col-md-4" style="background-color: lightblue">4 wide</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-2" style="background-color: lightcoral">4 wide offset 2</div>
+    </div>
+
+
+    <h3>Nested Rows</h3>
+    <div class="row">
+        <div class="col-md-9" style="background-color: lightseagreen; padding: 30px;">
+
+            I am the main parent
+
+            <!-- to nest, add a new row (don't exceed 12 columns) -->
+            <div class="row">
+                <div class="col-md-8" style="background-color: lightblue">
+                    child 1
+                </div>
+                <div class="col-md-4" style="background-color: lightsalmon">
+                    child 2
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h3>Push and pull</h3>
+
+    <div class="row">
+
+        <!--
+                col-md-push-5 = move right 5 columns on md or greater (stay same for sm)
+                else just show as normal
+            -->
+        <div class="col-md-5 col-md-push-5" style="background: lightgreen">
+            Content A - MAIN BANNER
+        </div>
+
+        <!-- col-sm-pull-5 = move left 5 columns -->
+        <div class="col-md-5 col-md-pull-5" style="background: lightcoral">
+            Content B
+        </div>
+
+        <div class="col-md-2" style="background: lightblue">
+            Content C
+        </div>
+
+    </div>
+
+    </div>
+    <h3>Log In Demo</h3>
+
+    <!-- data-toggle lets you display modal without any JavaScript -->
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#popUpWindow">Open Modal</button>
+
+    <div class="modal fade" id="popUpWindow">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Log In</h3>
+                </div>
+
+                <!-- body (form) -->
+                <div class="modal-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+
+                <!-- button -->
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- 
+
+What is below tag means in HTML ? - 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    * HTML5 introduced a method to let web designers take control over the viewport, through the 
+      <meta> tag. The viewport is the user's visible area of a web page. 
+    * It varies with the device, and will be smaller on a mobile phone than on a computer screen.
+    * A <meta> viewport element gives the browser instructions on how to control the page's 
+      dimensions and scaling.
+    * The width=device-width part sets the width of the page to follow the screen-width of the 
+      device (which will vary depending on the device).
+    * The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the 
+      browser.
+
+What is <meta charset="utf-8"> in html means ?
+
+    * The charset attribute specifies the character encoding for the HTML document.
+      utf-8 : Character encoding for unicode.
+
+What is <!DOCTYPE html> ?
+
+    * The <!DOCTYPE> declaration must be the very first thing in your HTML document, 
+      before the <html> tag.
+    * The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about 
+      what version of HTML the page is written in.
+
+    * In HTML 4.01, the <!DOCTYPE> declaration refers to a DTD, because HTML 4.01 was based on SGML. 
+      The DTD specifies the rules for the markup language, so that the browsers render the content 
+      correctly.
+
+    * HTML5 is not based on SGML, and therefore does not require a reference to a DTD.
+    
+    In HTML4.01:
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+    In HTML5:
+        <!DOCTYPE html>
+
+What is Bootstrap ?
+
+    Bootstrap is the most popular HTML, CSS and JS framework for developing responsive 
+    and mobile first applications.
+
+what is xs, sm, md, lg ?
+    These attributes relates to what device we are trying to design layout for.
+    xs: Extra small : for mobile phones
+    sm: small device : for tablets
+    md: modile device : for normal Desktops
+    lg: large device : for larger desktops
+
+1. Grid System: Refer Grid System device independent classes
+
+2. Text Styles: apply background & contexctual colors, highlighting text, write quotes, 
+                highlight, keyboard shortcuts, write code & multiline code.
+
+3. Table: Refer classes for table, We can also create Condensed table and Striped table.
+
+4. Responsive Images & Videos: Refer classes for rounded corners, circle corners images
+                                Responsive vs non-responsive images and responsive videos.
+
+5. Navbar: Refer navbarto show logo and navigation items.
+
+6. Drodown menu in Navbar: Refer classes above.
+
+7. Navbar Toggle button: Please refer above classes & resize screen to get toggle button
+
+8. Wells: Please refer classes & ouputs for the same.
+
+9. Different Layouts for diiferent devices: Please refer outputs & classes.
+
+10: Push & Pull: Please refer classes & resize your pages to see changes.
+
+11. Login Page: Model popup Login window. Please Refer classes.
+
+-->
